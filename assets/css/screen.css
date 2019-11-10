@@ -181,6 +181,7 @@ section.recent-posts {
     height: 40px;
     margin-right: 13px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .post-top-meta {
