@@ -39,9 +39,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
-category_archive:
-  type: jekyll-archives
-  path: /ստորոգութիւններ/
+
+collections:
+  categories:
+    output: true
+    permalink: /ստորոգութիւններ/:name/ # optional
 
 # Archives
 jekyll-archives:
@@ -49,7 +51,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/ստորոգութիւններ/:name/'
+    category: '/ստորոգութիւն/:name/'
     
 # Pagination 
 paginate: 6
