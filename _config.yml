@@ -38,14 +38,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
+category_archive:
+  type: jekyll-archives
+  path: /ստորոգութիւններ/
+
 # Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
   permalinks:
-    category: '/ստորոգութիւն/:name/'
+    category: '/ստորոգութիւններ/:name/'
     
 # Pagination 
 paginate: 6
