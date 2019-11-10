@@ -39,12 +39,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
-
-collections:
-  categories:
-    output: true
-    permalink: /ստորոգութիւններ/:name/ # optional
-
 # Archives
 jekyll-archives:
   enabled:
