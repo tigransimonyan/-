@@ -37,19 +37,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
-
-collections:
-  categories:
-    output: true
-    permalink: /:name/ # optional
-
-defaults:
-  scope:
-    path: ''
-    type: categories
-  values:
-    layout: category
-
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/ստորոգութիւն/:name/'
+    
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
