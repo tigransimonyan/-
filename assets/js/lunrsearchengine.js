@@ -22,8 +22,10 @@ function lunr_search(event) {
     if(term) {
         document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Որոնման արդիւնքները</h5>" + document.getElementById('modtit').innerHTML;
         //put results on the screen.   
+        const regexpValue = term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        const regexp = new RegExp(term, "i");
         for(var i = 0; i < documents.length; i++){
-            if(documents[i]['title'].indexOf(term) >= 0 || documents[i]['body'].indexOf(term) >= 0){
+            if(documents[i]['title'].search(regexp) >= 0 || documents[i]['body'].search(regexp) >= 0){
                 var url = documents[i]['url'];
                 var title = documents[i]['title'];
                 var body = documents[i]['body'].substring(0,160)+'...';
