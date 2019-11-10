@@ -42,3 +42,5 @@ fields:
   type: boolean
   label: hidden
   hidden: false
+pages:
+- _posts/2019-11-09-սոհո-հրուշակեղէն-ու-շոկոլադեղէն.md
