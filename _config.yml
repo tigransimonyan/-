@@ -29,8 +29,6 @@ authors:
     avatar: 'assets/images/mutabor.jpg'
     description: ''
 
-
-
 # Plugins
 plugins:
   - jekyll-paginate
@@ -39,14 +37,18 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/ստորոգութիւն/:name/'
-    
+
+collections:
+  categories:
+    output: true
+    permalink: /:name/ # optional
+
+scope:
+  path: ''
+  type: categories
+values:
+  layout: category
+
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
