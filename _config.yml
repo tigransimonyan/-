@@ -17,7 +17,7 @@ authors:
     display_name: Տիգրան
     avatar: 'assets/images/tigran.jpg'
     web: https://twitter.com/_tigransimonyan
-    description: ''
+    description: 'Ծրագրաւորող, արտադրող, սպառող, կինոման։'
   zythepsary:
     name: Զիւթոս
     display_name: Զիւթոս    
@@ -27,7 +27,7 @@ authors:
     name: Մութաբոր
     display_name: Մութաբոր
     avatar: 'assets/images/mutabor.jpg'
-    description: ''
+    description: 'Բուսակեր եւ թափանցիկ'
 
 # Plugins
 plugins:
@@ -67,4 +67,4 @@ adsense-data-ad-slot: "1363087678"
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, vendor]

@@ -14,21 +14,18 @@ authors:
     name: Տիգրան
     display_name: Տիգրան
     avatar: 'assets/images/tigran.jpg'
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
     web: https://twitter.com/_tigransimonyan
-    description: ''
+    description: 'Ծրագրաւորող, արտադրող, սպառող, կինոման։'
   zythepsary:
     name: Զիւթոս
     display_name: Զիւթոս    
     avatar: 'assets/images/zythepsary.jpg'
-    gravatar: b1cc14991db7a456fcd761780bbc8f81
-    description: ''
+    description: 'Արուեստասէր, փոխարդիապաշտ, եպիկուրեան, նրբաստամոքս, քմաճաշակ, բազմաբարբառ, մաշտոցեան ուղղագրութեան ռահվիրայ։'
   mutabor:
     name: Մութաբոր
     display_name: Մութաբոր
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    description: 'Արուեստամոլ, երաժշտասէր, լեզուասէր, եպիկուրեան, նրբաստամոքս, քմաճաշակ, մաշտոցեան ուղղագրութեան ռահվիրայ։'
-
+    avatar: 'assets/images/mutabor.jpg'
+    description: 'Բուսակեր եւ թափանցիկ'
 
 # Plugins
 plugins:
