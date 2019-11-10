@@ -43,11 +43,12 @@ collections:
     output: true
     permalink: /:name/ # optional
 
-scope:
-  path: ''
-  type: categories
-values:
-  layout: category
+defaults:
+  scope:
+    path: ''
+    type: categories
+  values:
+    layout: category
 
 # Pagination 
 paginate: 6
