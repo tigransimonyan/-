@@ -28,10 +28,10 @@ authors:
     display_name: Մութաբոր
     avatar: 'assets/images/mutabor.jpg'
     description: 'Բուսակեր եւ թափանցիկ'
-  revolutionary:
+  sonata:
     name: Սոնատա
     display_name: Սոնատա
-    avatar: 'assets/images/revolutionary.jpg'
+    avatar: 'assets/images/sonata.jpg'
     description: ''
 
 # Plugins
