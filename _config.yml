@@ -27,12 +27,12 @@ authors:
     name: Մութաբոր
     display_name: Մութաբոր
     avatar: 'assets/images/mutabor.jpg'
-    description: 'Բուսակեր եւ թափանցիկ'
+    description: 'Բուսակեր եւ թափանցիկ։'
   sonata:
     name: Սոնատա
     display_name: Սոնատա
     avatar: 'assets/images/sonata.jpg'
-    description: 'Վանիլային'
+    description: 'Վանիլային։'
 
 # Plugins
 plugins:
