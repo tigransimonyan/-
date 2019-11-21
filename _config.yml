@@ -41,14 +41,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/ստորոգութիւն/:name/'
     
 # Pagination 
 paginate: 6
