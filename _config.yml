@@ -11,6 +11,7 @@ permalink: /:title/
 theme: mediumish-theme-jekyll
 
 # Plugins
+plugins_dir: [_plugins]
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

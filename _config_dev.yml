@@ -9,20 +9,13 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
+plugins_dir: [_plugins]
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/ստորոգութիւն/:name/'
     
 # Pagination 
 paginate: 6
