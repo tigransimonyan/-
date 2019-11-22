@@ -9,7 +9,6 @@ include: ["_pages"]
 permalink: /:title/
 
 # Plugins
-plugins_dir: [_plugins]
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
