@@ -8,25 +8,6 @@ disqus: 'znin-hay'
 include: ["_pages"]
 permalink: /:title/
 
-# Authors
-authors:
-  tigran:
-    name: Տիգրան
-    display_name: Տիգրան
-    avatar: 'assets/images/tigran.jpg'
-    web: https://twitter.com/_tigransimonyan
-    description: 'Ծրագրաւորող, արտադրող, սպառող, կինոման։'
-  zythepsary:
-    name: Զիւթոս
-    display_name: Զիւթոս    
-    avatar: 'assets/images/zythepsary.jpg'
-    description: 'Արուեստասէր, փոխարդիապաշտ, եպիկուրեան, նրբաստամոքս, քմաճաշակ, բազմաբարբառ, մաշտոցեան ուղղագրութեան ռահվիրայ։'
-  mutabor:
-    name: Մութաբոր
-    display_name: Մութաբոր
-    avatar: 'assets/images/mutabor.jpg'
-    description: 'Բուսակեր եւ թափանցիկ'
-
 # Plugins
 plugins:
   - jekyll-paginate
