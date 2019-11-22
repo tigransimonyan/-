@@ -16,7 +16,8 @@ post_class: post-template
         </div>
 
         <!-- Post -->
-        {% assign author = site.authors[page.author] %}
+        {% assign author = site.data.authors[page.author] %}
+        <!-- test -->
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
