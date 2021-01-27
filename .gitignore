@@ -4,3 +4,6 @@ _site
 .sass-cache
 .idea
 *~
+.bundle
+vendor
+.jekyll-cache
